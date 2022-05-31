@@ -8,8 +8,8 @@ else:
     a = (number % 10)
 
 if (a > 5):
-    print("last digit of {} is {} and is greater than 5".format(number, a))
+    print("Last digit of {} is {} and is greater than 5".format(number, a))
 elif (a == 0):
-    print("last digit of {} is {} and is zero".format(number, a))
+    print("Last digit of {} is {} and is zero".format(number, a))
 elif (a < 6) and (a != 0):
-    print("last digit of {} is {} and is less than 6 and not 0".format(number, a))
+    print("Last digit of {} is {} and is less than 6 and not 0".format(number, a))
