@@ -2,6 +2,6 @@
 from add_0 import add
 a = 1
 b = 2
-addition = add(a, b)
+#addition = add(a, b)
 
-print("{} + {} = {}".format(a, b, addition))
+print("{} + {} = {}".format(a, b, add(a,b)))
